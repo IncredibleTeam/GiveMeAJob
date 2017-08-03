@@ -1,0 +1,66 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+.container-fluid{
+	padding: 0;
+}
+.header{
+	height: 50px;
+	width: 100%;
+	margin-top: 20px;
+	.navbar-brand{
+		color: #fff;
+		font-family: "LatoBold";
+		font-size: 32px;
+		font-weight: bold;
+		&:hover{
+			color: #fff;
+		}
+	}
+	.navbar-default{
+		background-color: transparent;
+		border-color: transparent;
+	}
+	.navbar-nav{
+		float: none;
+		.active > a, .active > a:hover, .active > a:focus{
+			color: #000;
+			background: transparent;
+			border-bottom: 1px solid #000;
+			border-radius: 4px;
+		}
+		.reg a{
+			font-size: 14px;
+			margin-left: 50px;
+			color: #fff;
+			border: 1px solid #fff;
+		}
+		li a{
+			font-size: 20px;
+			color: #000;
+			font-family: "LatoLight";
+		}	
+	}
+	.f-r{
+		float: right;
+	}
+}
+.main-content{
+	width: 100%;
+	h1{
+		font-size: 40px;
+		padding: 10px 20px;
+		color: #fff;
+		font-family: "LatoRegular";
+	}
+
+}
+.left-main{
+	margin-top: 170px;
+	h1{
+		margin-bottom: 20px;
+	}
+}

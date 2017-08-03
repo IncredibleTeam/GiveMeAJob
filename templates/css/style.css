@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "LatoRegular";
+    src: url("../fonts/Lato/LatoRegular/LatoRegular.eot");
+    src: url("../fonts/Lato/LatoRegular/LatoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Lato/LatoRegular/LatoRegular.woff") format("woff"),
+    url("../fonts/Lato/LatoRegular/LatoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "LatoBold";
+    src: url("../fonts/Lato/LatoBold/LatoBold.eot");
+    src: url("../fonts/Lato/LatoBold/LatoBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Lato/LatoBold/LatoBold.woff") format("woff"),
+    url("../fonts/Lato/LatoBold/LatoBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "LatoLight";
+    src: url("../fonts/Lato/LatoLight/LatoLight.eot");
+    src: url("../fonts/Lato/LatoLight/LatoLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Lato/LatoLight/LatoLight.woff") format("woff"),
+    url("../fonts/Lato/LatoLight/LatoLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+.clear_fix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	outline: none;
+}
+ul{
+	margin: 0;
+}
+body{
+	background: #3498DB url("../img/ipad-hand.png") no-repeat bottom -10px right 25%;
+	height: 100vh;
+}
+
+
+
+@media (max-width: 1200px){
+	
+}
+@media (max-width: 990px){
+
+}
+@media (max-width: 768px){
+	
+}
+@media (max-width: 650px){
+
+}
+@media (max-width: 581px){
+}
+@media (max-width: 400px){
+
+}
