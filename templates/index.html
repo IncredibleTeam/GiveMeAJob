@@ -1,12 +1,13 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/screen.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/jquery.bxslider.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/screen.css' %}">
 
 
 </head>
@@ -73,10 +74,10 @@
 	</div>
 </body>
 
-<script src="js/jquery-2-0-0.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/script.js"></script>
-<script src="js/jquery.bxslider.min.js"></script>
+<script src="{% static 'js/jquery-2-0-0.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/script.js' %}"></script>
+<script src="{% static 'js/jquery.bxslider.min.js' %}"></script>
 
 
 </html>
